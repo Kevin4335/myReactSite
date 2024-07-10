@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import "../output.css";
-import Navbar from "../components/Navbar.js";
+import "./../output.css";
+import Navbar from "./../components/Navbar.js";
 
 
 
-export default function Home() {
+export default function Test() {
     return(
         <div>
             <Navbar/>

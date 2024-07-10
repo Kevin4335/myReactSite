@@ -1,7 +1,6 @@
 {
   "name": "my-app",
   "version": "1.0.0",
-  "homepage": "https://kevin4335.github.io/myReactSite",
   "description": "",
   "keywords": [],
   "main": "src/index.tsx",
