@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar.js";
 import { BiCopy } from "react-icons/bi";
 import { BiDownload } from "react-icons/bi";
 
+
 function copyMainEmail(){
     navigator.clipboard.writeText( "kvchang21@gmail.com" );
     document.getElementById("mainEmail").style.fill = "green"
@@ -47,7 +48,7 @@ export default function Contact() {
                         <h2 className="text-2xl font-bold">Resume</h2>
                         <hr className="mb-[11%]"></hr>
 
-                        <a className = " w-[100%] mb-[10%] " href ="../data/test.png" download = "test">
+                        <a className = " w-[100%] mb-[10%] " href ="../data/test.png" download>
                             <button class="flex w-[100%]  btn bg-footer border-none hover:bg-footer-text " >
                                 Resume Download<BiDownload/>
                                 
