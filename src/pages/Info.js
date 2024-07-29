@@ -47,7 +47,7 @@ export default function Contact() {
                         <h2 className="text-2xl font-bold">Resume</h2>
                         <hr className="mb-[11%]"></hr>
 
-                        <a className = " w-[100%] mb-[10%] " href ="../data/test.png" download = "test.png" target="_blank" rel="noopener noreferrer">
+                        <a className = " w-[100%] mb-[10%] " href ="../data/test.png" download = "test">
                             <button class="flex w-[100%]  btn bg-footer border-none hover:bg-footer-text " >
                                 Resume Download<BiDownload/>
                                 
