@@ -11,7 +11,7 @@ export default function Footer() {
             <aside className="grid-flow-col items-center w-3/4">
                 
                 <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
-                <p className="flex">Built with ReactJS <FaGithub className="ml-2"/></p>
+                <p className="flex">Built with ReactJS <a  className="ml-2" href="https://github.com/Kevin4335/myReactSite" target="_blank" rel="noopener noreferrer"><FaGithub/></a></p>
                 <p>Deployed using Vercel</p>
             </aside>
             <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">

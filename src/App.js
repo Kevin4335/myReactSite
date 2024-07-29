@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home.js";
 import Projects from "./pages/Projects.js";
-import Contact from "./pages/Contact.js"
+import Contact from "./pages/Info.js"
 
 
 export default function App() {
