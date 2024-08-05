@@ -17,8 +17,9 @@ export default function Projects() {
             <div className="mt-6 container m-auto grid grid-cols-3 pl-[11%] pr-[11%]"> 
                 
                 {projects.map(createCard)}  
-
+                <p className = "text-footer-text mt-5 mb-5 mr-auto ml-auto">and many more lesser projects...</p>
             </div>
+            
             <Footer/>
         </div>
         

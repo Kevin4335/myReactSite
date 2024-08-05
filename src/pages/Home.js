@@ -18,7 +18,7 @@ return(
                     Hello and welcome to my website. I'm Kevin Chang, currently in my third year studying Computer Science at the University of Michigan, with a minor in User Experience Design. 
                     I'm proficient in a range of programming languages including C++, C, Python, JavaScript, HTML, CSS, and Verilog.
                     In addition to my studies, I'm deeply passionate about programming. It's not just a skill set for me; it's a genuine interest. I enjoy tackling complex problems and finding elegant solutions through code.
-                    Outside of coding, I love going to the gym, hiking, and woodworking.
+                    Outside of coding, I love going to the gym, biking, and hiking.
                 </p>
                 <p className="m-[6%] p-[6%] row-span-2 rounded-3xl border-solid border-4 border-footer bg-gradient-to-br from-a-nav to-primary-blue">
                     <img className= "rounded-3xl" src="https://images.pexels.com/photos/433989/pexels-photo-433989.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
