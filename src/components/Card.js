@@ -19,7 +19,7 @@ export default function Card(props) {
                 <p>{props.description}</p>
                 <div className="card-actions justify-end">
                 
-                {props.link == "none"? <p ><div className="italic text-footer-text float-right">{props.linkDescription}</div></p>: <a href= {props.link} target="_blank" rel="noopener noreferrer"><button className="btn btn-primary"><FaGithub/>{props.linkDescription}</button></a>}
+                {props.link == "none"? <p ><div className="italic text-footer-text float-right select-none">{props.linkDescription}</div></p>: <a href= {props.link} target="_blank" rel="noopener noreferrer"><button className="btn btn-primary"><FaGithub/>{props.linkDescription}</button></a>}
                 </div>
             </div>
         </div>
