@@ -18,12 +18,8 @@ export default function Card(props) {
                 <h2 className="card-title">{props.title}</h2>
                 <p>{props.description}</p>
                 <div className="card-actions justify-end">
-                <p style = {
-                    props.link == "none"?{visibility:"visible"}:{visibility:"hidden"}
-                }><div className="italic text-footer-text float-right">{props.linkDescription}</div></p>
-                <a style={
-                    props.link == "none"?{visibility:"hidden"} :{visibility:"visible"}
-                } href= {props.link} target="_blank" rel="noopener noreferrer"><button className="btn btn-primary"><FaGithub/>{props.linkDescription}</button></a>
+                
+                {props.link == "none"? <p ><div className="italic text-footer-text float-right">{props.linkDescription}</div></p>: <a href= {props.link} target="_blank" rel="noopener noreferrer"><button className="btn btn-primary"><FaGithub/>{props.linkDescription}</button></a>}
                 </div>
             </div>
         </div>
