@@ -15,8 +15,8 @@ export default function Card(props) {
                 alt={props.alt}/>
             </figure>
             <div className="card-body">
-                <h2 className="card-title">{props.title}</h2>
-                <p>{props.description}</p>
+                <h2 className="card-title text-a-sky">{props.title}</h2>
+                <p className = "text-a-sky">{props.description}</p>
                 <div className="card-actions justify-end">
                 
                 {props.link == "none"? <p ><div className="italic text-footer-text float-right select-none">{props.linkDescription}</div></p>: <a href= {props.link} target="_blank" rel="noopener noreferrer"><button className="btn btn-primary"><FaGithub/>{props.linkDescription}</button></a>}
