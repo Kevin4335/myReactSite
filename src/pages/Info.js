@@ -5,6 +5,8 @@ import Footer from "../components/Footer.js";
 import Navbar from "../components/Navbar.js";
 import { BiCopy } from "react-icons/bi";
 import { BiDownload } from "react-icons/bi";
+import Banff from "../data/img2.jpg"
+
 
 const links = document.querySelectorAll('a[download]');
 links.forEach(link => {
@@ -61,7 +63,7 @@ export default function Contact() {
                         <p className="text-lg ml-[2%] mr-[2%] mt-[4%]">LinkedIn: <span className="text-a-cream"><a className = "underline"href = "https://www.linkedin.com/in/kevin-chang-1961a8250/" target="_blank" rel="noopener noreferrer">Link</a></span ><button onClick={copyLinkedin}class="btn float-right bg-primary-blue border-none hover:bg-footer-text"><BiCopy  id="linkedin" className="fill-white" /></button></p>
                     </p>
                     <p className="m-[6%] p-[6%]  rounded-3xl border-solid border-4 border-footer bg-gradient-to-br from-a-nav to-primary-blue">
-                        <img className= "rounded-3xl" src="https://images.pexels.com/photos/433989/pexels-photo-433989.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+                        <img className= "rounded-3xl" alt = "Banff National Park" src={Banff} />
                     </p>
                     <p className=" col-span-2 m-[3%] pt-[3%] pl-[3%] pr-[3%] pb-[8%] rounded-3xl border-solid border-4 border-footer bg-gradient-to-r from-a-nav to-primary-blue">
                         <h2 className="text-2xl font-bold">Resume</h2>

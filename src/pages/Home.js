@@ -5,6 +5,8 @@ import { IoSadOutline   } from "react-icons/io5";
 
 import Navbar from "../components/Navbar.js";
 import Footer from "../components/Footer.js";
+import Kevin_Banff from "../data/img1.jpg";
+
 
 export default function Home() {
 return(
@@ -21,10 +23,10 @@ return(
                     Outside of coding, I love going to the gym, biking, and hiking.
                 </p>
                 <p className="m-[6%] p-[6%] row-span-2 rounded-3xl border-solid border-4 border-footer bg-gradient-to-br from-a-nav to-primary-blue">
-                    <img className= "rounded-3xl" src="https://images.pexels.com/photos/433989/pexels-photo-433989.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+                    <img className= "rounded-3xl" alt = "Me at Banff" src={Kevin_Banff} />
                 </p>
                 <p className="m-[6%] p-[6%] row-span-2 rounded-3xl border-solid border-4 border-footer bg-gradient-to-br from-a-nav to-primary-blue">
-                    <img className= "rounded-3xl" src = "https://i.pinimg.com/736x/e2/7d/2c/e27d2ca0d8af85b751f91efb680fb56c.jpg"/>
+                    <img className= "rounded-3xl" alt = "UofM logo" src = "https://i.pinimg.com/736x/e2/7d/2c/e27d2ca0d8af85b751f91efb680fb56c.jpg"/>
                 </p>
                 <p className="m-[6%] p-[4%] rounded-3xl border-solid border-4 border-footer text-left bg-gradient-to-r from-a-nav to-primary-blue">
                     <b>Currently Taking Fall 2024:</b>
