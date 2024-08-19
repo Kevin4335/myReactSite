@@ -4,7 +4,15 @@
 //Python https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp&w=256 
 
 const projects = [
-
+    {
+        id:0,
+        title:"Python Game",
+        img:"https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp&w=256",
+        alt:"python",
+        description:"Using Python and the Pygame library, create a top down game",
+        link:"https://github.com/Kevin4335/pythongame_2024",
+        linkDescription:"Github",
+    },
     {
         id:1,
         title:"React Site",
