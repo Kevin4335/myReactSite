@@ -9,7 +9,7 @@ const projects = [
         title:"Python Game",
         img:"https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp&w=256",
         alt:"python",
-        description:"Using Python and the Pygame library, create a top down game",
+        description:"Using Python and the Pygame library, create a top down game with procedurally generated map",
         link:"https://github.com/Kevin4335/pythongame_2024",
         linkDescription:"Github",
     },
