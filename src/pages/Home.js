@@ -18,7 +18,7 @@ return(
             <main className="container m-auto grid grid-cols-3 pl-[14%] pr-[14%] text-lg text-justify">
                 <p className=" col-span-2 m-[3%] p-[3%] rounded-3xl border-solid border-4 border-footer bg-gradient-to-r from-a-nav to-primary-blue">
                     Hello and welcome to my website. I'm Kevin Chang, currently in my third year studying Computer Science at the University of Michigan, with a minor in User Experience Design. 
-                    I'm proficient in a range of programming languages including C++, C, Python, JavaScript, HTML, CSS, and Verilog.
+                    I'm proficient in a range of programming languages including C++, C, Python, React, Javascript, and Verilog.
                     In addition to my studies, I'm deeply passionate about programming. It's not just a skill set for me; it's a genuine interest. I enjoy tackling complex problems and finding elegant solutions through code.
                     Outside of coding, I love going to the gym, biking, and hiking.
                 </p>
