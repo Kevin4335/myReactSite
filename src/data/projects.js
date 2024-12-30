@@ -5,6 +5,33 @@
 
 const projects = [
     {
+        id:-3,
+        title:"Search Engine",
+        img:"https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp&w=256",
+        alt:"python",
+        description:"Using Python, build a scalabale search engine such as Google. Utilizes text and link analysis. Also includes a RestAPI and React frontend.",
+        link:"none",
+        linkDescription:"Github not public",
+    },
+    {
+        id:-2,
+        title:"Map Reduce Framework",
+        img:"https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp&w=256",
+        alt:"python",
+        description:"Using Python, create a MapReduce framework. Uses a manager and workers, utilizes threading",
+        link:"none",
+        linkDescription:"Github not public",
+    },
+    {
+        id:-1,
+        title:"Instagram Clone",
+        img:"https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp&w=256",
+        alt:"python",
+        description:"Using Python Flask and RestAPI for backend and React for frontend, create a client side dynamic Instagram clone",
+        link:"none",
+        linkDescription:"Github not public",
+    },
+    {
         id:0,
         title:"Python Game",
         img:"https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png?f=webp&w=256",

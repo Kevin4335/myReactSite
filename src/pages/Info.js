@@ -70,7 +70,7 @@ export default function Contact() {
                         <hr className="mb-[11%]"></hr>
 
                         <object className = "rounded-3xl border-solid border-2 ml-[3%] " 
-                                data="https://drive.google.com/file/d/1BENqJTaIyYPIdSLcLnGGfpFmjiDv0YSJ/preview"
+                                data="https://drive.google.com/file/d/184yOS1QFTGxg0pdo8ySV7Y20WzGybpdy/preview"
                                 width="94%"
                                 height="700">
                         </object>
