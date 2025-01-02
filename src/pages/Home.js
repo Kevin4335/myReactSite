@@ -49,7 +49,7 @@ return(
                     </ul>
                 </p>
                 <p className="m-[6%] p-[4%] rounded-3xl border-solid border-4 border-footer text-justify bg-gradient-to-r from-a-nav to-primary-blue">
-                    <b>Current Work:</b>
+                    <b>Recent Work:</b>
                     <ul className="pl-[2%] pt-[12%]  text-sm ">
                         <li className = "pb-[8%]" >I most recently interned at Up Cancer as a Software Development Intern. I worked with React and TailwindCSS on frontend.</li>
                         <img className="w-[24%] ml-[38%] mr-[38%] pointer-events-none select-none" src="https://www.upcancer.org/x/cdn/?https://storage.googleapis.com/wzukusers/user-28366453/images/5cacd50adc3c37Zurfki/Up-Cancer-new-logo_d200.png"/>
