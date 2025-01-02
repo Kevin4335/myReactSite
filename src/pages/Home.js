@@ -39,12 +39,12 @@ return(
                 <p className="m-[6%] p-[4%] rounded-3xl border-solid border-4 border-footer text-left bg-gradient-to-r from-a-nav to-primary-blue">
                     <b>Already Taken:</b>
                     <ul className="pl-[2%] py-[4%] text-sm ">
+                        <li><em className="text-a-cream">EECS 485</em>: Web Systems</li>
                         <li><em className="text-a-cream">EECS 281</em>: Data Structures and Algorithms</li>
                         <li><em className="text-a-cream">EECS 388</em >: Intro to Computer Security</li>
                         <li><em className="text-a-cream">EECS 370</em>: Intro to Computer Organization</li>
                         <li><em className="text-a-cream">SI 339</em>: Web Design, Dev., and Accesibility</li>
                         <li><em className="text-a-cream">SI 206</em>: Data Oriented Programming</li>
-                        <li><em className="text-a-cream">EECS 485</em>: Web Systems</li>
                         <li><em className="text-a-cream">EECS 376</em >: Foundations of Computer Sci.</li>
                     </ul>
                 </p>
