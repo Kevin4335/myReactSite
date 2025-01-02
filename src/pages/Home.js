@@ -31,10 +31,8 @@ return(
                 <p className="m-[6%] p-[4%] rounded-3xl border-solid border-4 border-footer text-left bg-gradient-to-r from-a-nav to-primary-blue">
                     <b>Currently Taking Fall 2024:</b>
                     <ul className="pl-[2%] py-[4%] text-sm ">
-                        <li><em className="text-a-cream">EECS 485</em>: Web Systems</li>
-                        <li><em className="text-a-cream">EECS 376</em >: Foundations of Computer Sci.</li>
-                        <li><em className="text-a-cream">EECS 201</em>: Computer Science Pragmatics</li>
-                        <li><em className="text-a-cream">SI 110</em>: Intro to Info Studies</li>
+                        <li><em className="text-a-cream">EECS 481</em>: Software Engineering</li>
+                        <li><em className="text-a-cream">EECS 442</em >: Computer Vision</li>
                     </ul>
                 </p>
                 
@@ -46,13 +44,14 @@ return(
                         <li><em className="text-a-cream">EECS 370</em>: Intro to Computer Organization</li>
                         <li><em className="text-a-cream">SI 339</em>: Web Design, Dev., and Accesibility</li>
                         <li><em className="text-a-cream">SI 206</em>: Data Oriented Programming</li>
-                        <li><em className="text-a-cream">TCHNCLCM 300</em>: Technical Communication</li>
+                        <li><em className="text-a-cream">EECS 485</em>: Web Systems</li>
+                        <li><em className="text-a-cream">EECS 376</em >: Foundations of Computer Sci.</li>
                     </ul>
                 </p>
                 <p className="m-[6%] p-[4%] rounded-3xl border-solid border-4 border-footer text-justify bg-gradient-to-r from-a-nav to-primary-blue">
                     <b>Current Work:</b>
                     <ul className="pl-[2%] pt-[12%]  text-sm ">
-                        <li className = "pb-[8%]" >I am currently interning at Up Cancer as a Software Development Intern. I work with React and TailwindCSS on frontend.</li>
+                        <li className = "pb-[8%]" >I most recently interned at Up Cancer as a Software Development Intern. I worked with React and TailwindCSS on frontend.</li>
                         <img className="w-[24%] ml-[38%] mr-[38%] pointer-events-none select-none" src="https://www.upcancer.org/x/cdn/?https://storage.googleapis.com/wzukusers/user-28366453/images/5cacd50adc3c37Zurfki/Up-Cancer-new-logo_d200.png"/>
                     </ul>
                 </p>
